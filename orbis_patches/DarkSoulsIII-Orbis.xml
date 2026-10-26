@@ -5,7 +5,7 @@
         <ID>CUSA03388</ID>
         <ID>CUSA07339</ID>
     </TitleID>
-    <Metadata Title="Dark Souls III"
+    <Metadata ImageBase="0x00400000" Title="Dark Souls III"
               Name="Resolution 640×360"
               Author="DanielSvoboda"
               PatchVer="1.0"
@@ -15,7 +15,7 @@
             <Line Type="bytes" Address="0x4E1EFB0" Value="8002000068010000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Dark Souls III"
+    <Metadata ImageBase="0x00400000" Title="Dark Souls III"
               Name="Resolution 1280×720"
               Author="DanielSvoboda"
               PatchVer="1.0"
@@ -25,7 +25,7 @@
             <Line Type="bytes" Address="0x4E1EFB0" Value="00050000d0020000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Dark Souls III"
+    <Metadata ImageBase="0x00400000" Title="Dark Souls III"
               Name="Resolution 1600×900"
               Author="DanielSvoboda"
               PatchVer="1.0"
@@ -35,7 +35,7 @@
             <Line Type="bytes" Address="0x4E1EFB0" Value="4006000084030000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Dark Souls III"
+    <Metadata ImageBase="0x00400000" Title="Dark Souls III"
     		  Name="Resolution 2560×1440"
     		  Author="DanielSvoboda"
     		  PatchVer="1.0"
@@ -45,7 +45,7 @@
     		<Line Type="bytes" Address="0x4E1EFB0" Value="000A0000A0050000"/>
     	</PatchList>
     </Metadata>
-    <Metadata Title="Dark Souls III"
+    <Metadata ImageBase="0x00400000" Title="Dark Souls III"
               Name="Top Menu Debug"
               Note="Hidden Pause Menu, on the right side"
               Author="Whitehawkx, DanielSvoboda"

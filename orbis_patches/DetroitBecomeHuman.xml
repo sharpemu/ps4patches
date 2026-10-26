@@ -3,7 +3,7 @@
     <TitleID>
         <ID>CUSA08308</ID>
     </TitleID>
-    <Metadata Title="Detroit: Become Human" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.08" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Detroit: Become Human" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.08" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <Line Type="byte" Address="0x65c93a" Value="0xb0"/>
             <Line Type="byte" Address="0x7dd029" Value="0xac"/>

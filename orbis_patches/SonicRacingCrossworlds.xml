@@ -3,7 +3,7 @@
     <TitleID>
         <ID>CUSA35016</ID>
     </TitleID>
-    <Metadata Title="Sonic Racing: CrossWorlds" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Sonic Racing: CrossWorlds" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <!-- Calculating memory area index from address -->
             <Line Type="bytes" Address="0x40b4ee" Value="80"/>
@@ -40,7 +40,7 @@
             <Line Type="bytes" Address="0x426680" Value="16"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Sonic Racing: CrossWorlds" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.41" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Sonic Racing: CrossWorlds" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.41" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <!-- Calculating memory area index from address -->
             <Line Type="bytes" Address="0x40b4de" Value="80"/>

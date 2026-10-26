@@ -5,7 +5,7 @@
         <ID>CUSA16404</ID>
         <ID>CUSA16429</ID>
     </TitleID>
-    <Metadata Title="Sakura Wars"
+    <Metadata ImageBase="0x00400000" Title="Sakura Wars"
               Name="60 FPS"
               Author="squidbus"
               PatchVer="1.0"

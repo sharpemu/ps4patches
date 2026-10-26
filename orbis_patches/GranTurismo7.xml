@@ -7,7 +7,7 @@
         <ID>CUSA24771</ID>
     </TitleID>
 
-    <Metadata Title="Gran Turismo 7" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.70" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Gran Turismo 7" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.70" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <Line Type="bytes" Address="0x5ef6e7c" Value="80"/>
         </PatchList>

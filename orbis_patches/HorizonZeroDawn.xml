@@ -18,7 +18,7 @@
         <ID>CUSA10234</ID>
         <ID>CUSA10237</ID>
     </TitleID>
-    <Metadata Title="Horizon Zero Dawn" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.54" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Horizon Zero Dawn" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.54" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <Line Type="byte" Address="0x1cb06a4" Value="0x82"/>
             <Line Type="byte" Address="0x60ac73" Value="0x80"/>
@@ -93,7 +93,7 @@
             <Line Type="byte" Address="0x1ecd3ec" Value="0x80"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Horizon Zero Dawn" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Horizon Zero Dawn" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <Line Type="byte" Address="0x1ca6b84" Value="0x82"/>
             <Line Type="byte" Address="0x60a3b3" Value="0x80"/>

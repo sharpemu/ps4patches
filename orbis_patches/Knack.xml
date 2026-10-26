@@ -3,7 +3,7 @@
     <TitleID>
         <ID>CUSA00006</ID>
     </TitleID>
-    <Metadata Title="Knack"
+    <Metadata ImageBase="0x00400000" Title="Knack"
               Name="Resolution 1280x720"
 			  Author="Niko"
 			  PatchVer="1.0"
@@ -14,7 +14,7 @@
             <Line Type="bytes32" Address="0x0F89d04" Value="0x000002D0"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Knack"
+    <Metadata ImageBase="0x00400000" Title="Knack"
               Name="Resolution 2560x1440"
 			  Author="Niko" PatchVer="1.0"
 			  AppVer="01.00"
@@ -24,7 +24,7 @@
             <Line Type="bytes32" Address="0x0F89d04" Value="0x000005A0"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Knack"
+    <Metadata ImageBase="0x00400000" Title="Knack"
               Name="Resolution 3840x2160"
 			  Author="Niko"
 			  PatchVer="1.0"
@@ -35,7 +35,7 @@
             <Line Type="bytes32" Address="0x0F89d04" Value="0x00000870"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Knack"
+    <Metadata ImageBase="0x00400000" Title="Knack"
               Name="Resolution 7680x4320"
 			  Author="Niko"
 			  PatchVer="1.0"
@@ -46,7 +46,7 @@
             <Line Type="bytes32" Address="0x0F89d04" Value="0x000010E0"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Knack"
+    <Metadata ImageBase="0x00400000" Title="Knack"
               Name="Debug Level"			  
 			  Author="Niko"
 			  PatchVer="1.0"

@@ -4,7 +4,7 @@
         <ID>CUSA31345</ID>
         <ID>CUSA31820</ID>
     </TitleID>
-    <Metadata Title="The Quarry" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.07" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="The Quarry" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.07" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <!-- 256MB direct map (0x4000000000 -> 0xb000000000) -->
             <Line Type="byte" Address="0x3163ada" Value="0xb0"/>
@@ -55,7 +55,7 @@
             <Line Type="byte" Address="0x66d6254" Value="0xd0"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="The Quarry" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="The Quarry" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <!-- 256MB direct map (0x4000000000 -> 0xb000000000) -->
             <Line Type="byte" Address="0x3b8064a" Value="0xb0"/>

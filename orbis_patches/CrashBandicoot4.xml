@@ -6,7 +6,7 @@
         <ID>CUSA23511</ID>
         <ID>CUSA23512</ID>
     </TitleID>
-    <Metadata Title="Crash Bandicoot 4: It's About Time" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Crash Bandicoot 4: It's About Time" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <!-- Calculating memory area index from address -->
             <Line Type="bytes" Address="0x144f572" Value="80"/>
@@ -35,7 +35,7 @@
             <Line Type="bytes" Address="0x542cec4" Value="D0"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Crash Bandicoot 4: It's About Time" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.05" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Crash Bandicoot 4: It's About Time" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="squidbus" PatchVer="1.0" AppVer="01.05" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <!-- Calculating memory area index from address -->
             <Line Type="bytes" Address="0x13b0402" Value="80"/>

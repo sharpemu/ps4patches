@@ -4,7 +4,7 @@
         <ID>CUSA17416</ID>
         <ID>CUSA17419</ID>
     </TitleID>
-    <Metadata Title="Persona 5 Royal"
+    <Metadata ImageBase="0x00400000" Title="Persona 5 Royal"
               Name="Force 4k Render Resolution"
               Note="Forces 4k Render Resolution by triggerring the PS4 Pro check"
               Author="Danu"
@@ -15,7 +15,7 @@
             <Line Type="bytes" Address="0x01851611" Value="b801000000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Persona 5 Royal"
+    <Metadata ImageBase="0x00400000" Title="Persona 5 Royal"
               Name="Force 1440p (2k) Render Resolution"
               Note="Forces 1440p (2k) Render Resolution"
               Author="Danu" PatchVer="1.0"

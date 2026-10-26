@@ -7,7 +7,7 @@
         <ID>CUSA20141</ID>
         <ID>CUSA20142</ID>
     </TitleID>
-    <Metadata Title="Minecraft Dungeons" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.29" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Minecraft Dungeons" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.29" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <Line Type="byte" Address="0x20426b4" Value="0xb0"/>
             <Line Type="byte" Address="0x204279b" Value="0x80"/>
@@ -29,7 +29,7 @@
             <Line Type="byte" Address="0x203748e" Value="0x16"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Minecraft Dungeons" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
+    <Metadata ImageBase="0x00400000" Title="Minecraft Dungeons" Name="macOS Memory Workaround" Notes="Works around memory mapping issue on macOS." Author="mavethee" PatchVer="1.0" AppVer="01.00" AppElf="eboot.bin" isEnabled="false">
         <PatchList>
             <Line Type="byte" Address="0x16110b6" Value="0xb0"/>
             <Line Type="byte" Address="0x161119b" Value="0x80"/>

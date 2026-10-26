@@ -10,7 +10,7 @@
         <ID>CUSA03023</ID>
         <ID>CUSA03173</ID>
     </TitleID>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Skip Intro + warning message"
               Author="illusion, Kyo"
               PatchVer="1.0"
@@ -23,7 +23,7 @@
             <Line Type="bytes" Address="0x0202EE1C" Value="EB73"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Performance Patch (Perf Increase)" 
               Note="Modifies some of the games debug parameters for better performance without affecting visuals." 
               Author="Kyo" 
@@ -225,7 +225,7 @@
             <Line Type="bytes" Address="0x02B15A32" Value="E8A9F091FF"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="rgba8f color space (Perf Increase)"
 			  Note="AFFECTS VISUALS: changes rgba16f color space to rgba8f. GPU use reduction, will help older/weak hardware." 
               Author="Kyo"
@@ -242,7 +242,7 @@
             <Line Type="bytes" Address="0x026C4984" Value="1C"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable Motion Blur (Perf Increase)"
 			  Note="Disable Motion Blur constructor, which also disables the velomap render, performance increase." 
               Author="Kyo"
@@ -253,7 +253,7 @@
             <Line Type="bytes" Address="0x026C2549" Value="00"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable Bloom"
 			  Note="Disable Bloom, minor performance increase." 
               Author="Kyo"
@@ -264,7 +264,7 @@
             <Line Type="bytes" Address="0x025D72F0" Value="31F60F1F4000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable Dynamic Light Shadows (Perf Increase)"
 			  Note="Disable Dynamic Light Shadow, stops a ton of heavy draw calls, performance increase." 
               Author="Kyo"
@@ -275,7 +275,7 @@
             <Line Type="bytes" Address="0x026C2538" Value="00"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable Chromatic Aberration"
               Author="illusion"
               PatchVer="1.0"
@@ -285,7 +285,7 @@
             <Line Type="bytes" Address="0x0269faa8" Value="c783ac000000000000009090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable AA"
 			  Note="Disables Anti-Aliasing constructor." 
               Author="Kyo"
@@ -296,7 +296,7 @@
 			<Line Type="bytes" Address="0x026C254A" Value="00"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable DoF"
 			  Note="Disables Depth of Field" 
               Author="Kyo"
@@ -307,7 +307,7 @@
             <Line Type="bytes" Address="0x025D7BBC" Value="E9DF00000090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable SSAO"
 			  Note="Disables Screen Space Ambient Occlusion constructor." 
               Author="Kyo"
@@ -318,7 +318,7 @@
 			<Line Type="bytes" Address="0x026C2548" Value="00"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable Facegen"
 			  Note="Disables Facegen, prevents vertex explosions from them." 
               Author="Kyo"
@@ -330,7 +330,7 @@
             <Line Type="bytes" Address="0x01C49F26" Value="00"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Better AA"
 			  Note="Force FXAA2_GS + DLAA_GS (double pass)" 
               Author="Kyo"
@@ -342,7 +342,7 @@
             <Line Type="bytes" Address="0x026A07D4" Value="488DB560F7FFFFB9090000004C8B8578F1FFFFE86484BBFEC7430C030000004889DF488DB560F7FFFFBA34000000B9090000004C8B8578F1FFFFE83D84BBFE41B7010F1F4000"/>
         </PatchList>
     </Metadata>
-	<Metadata Title="Bloodborne"
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Enable Screen Space Reflections (READ NOTE)"
 			  Note="This will DECREASE performance, BUT it enables SSR, very nice reflections on reflective surfaces, was never in the base game but can be enabled through debug functions."
 			  Author="Kyo"
@@ -368,7 +368,7 @@
             <Line Type="bytes" Address="0x026C42B4" Value="8324240031C941B91400000041B80A000000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="50% Text scale"
 			  Note="Smaller text, looks good on higher resolutions.\nIf you want to try other resolution values: \n 90%:6666663F \n80%:CDCC4C3F \n70%:3333333F \n60%:9A99193F \n50%:0000003F" 
               Author="Kyo"
@@ -379,7 +379,7 @@
             <Line Type="bytes" Address="0x04D2913C" Value="0000003F"/>
         </PatchList>
 	</Metadata>
-	<Metadata Title="Bloodborne"
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="FMOD Crash Fix"
 			  Note="May unintionally prevent some sound playback?"
 			  Author="Dasaav"
@@ -392,7 +392,7 @@
 			<Line Type="bytes32" Address="0x11f3eab" Value="0x00000118"/>
 		</PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Model LOD 2 (Lowest model detail)" 
               Note="Lowest model detail, performance increase. Affects visuals, lower Model LOD." 
               Author="Kyo, auser1337" 
@@ -403,7 +403,7 @@
             <Line Type="bytes" Address="0x0216fc09" Value="b90200000090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Model LOD 1 (Lower model detail)" 
               Note="Slightly lower model detail, performance increase. Affects visuals, lower Model LOD." 
               Author="Kyo, auser1337" 
@@ -414,7 +414,7 @@
             <Line Type="bytes" Address="0x0216fc09" Value="b90100000090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Model LOD -2 (Highest model detail)" 
               Note="Highest model detail, performance increase. Affects visuals, Higher model LOD." 
               Author="Kyo, auser1337" 
@@ -425,7 +425,7 @@
             <Line Type="bytes" Address="0x0216fc09" Value="b9FEFFFFFF90"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" Name="Increased Graphics Heap Sizes"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne" Name="Increased Graphics Heap Sizes"
 			  Author="auser1337"
 			  Note="This patch increases the graphic heap size, \nallowing more memory to be used. \nMUST BE USED WITH INCREASED DMEM. \nkeep in mind this is already in resolution patches above 1080p,\nbut some users requested it seperately. "
 			  PatchVer="1.0"
@@ -436,7 +436,7 @@
             <Line Type="bytes" Address="0x04b36de2" Value="00a0"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Intel 12th Gen+ SFX workaround" 
               Note="Disables part of SFX related code to workaround crash on Windows with newer Intel chips (SFX folder can be used with patch)" 
               Author="emoose" 
@@ -447,7 +447,7 @@
             <Line Type="bytes" Address="0x02CF83E0" Value="c3"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Intel Black Tonemap Fix" 
               Note="Fixes the black tonemap colors, most notable in DLC areas when using Intel CPU." 
               Author="Kyo" 
@@ -458,7 +458,7 @@
 			<Line Type="bytes" Address="0x025843e5" Value="909090909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable HTTP Requests" 
               Author="bloo" 
               PatchVer="1.0" 
@@ -470,7 +470,7 @@
             <Line Type="bytes" Address="0x024EE2A9" Value="9090909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="DS1-like physics"
 			  Note="Can fling around corpses and whatnot."
 			  Author="Kyo"
@@ -482,7 +482,7 @@
             <Line Type="bytes32" Address="0x01BF9439" Value="0x461C3C00"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Lower object/corpse physics"
 			  Note="Corpses resist movement by the player or other actions."
 			  Author="Kyo"
@@ -494,7 +494,7 @@
             <Line Type="bytes32" Address="0x01BF9439" Value="0x3F000000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="30 FPS++" 
               Note="Changes some frame settings like the frame skip, vsync, frame tearing, etc.. \nWill help with better input delay/response times for 30 FPS." 
               Author="Kyo" 
@@ -639,7 +639,7 @@
             <Line Type="bytes" Address="0x00EB9F11" Value="F3098A04"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="60FPS++ (no deltatime)" 
               Note="Just timesteps, no deltatime. Cloth, corpses, etc, won't 'jump' if you lag or stutter, but game speed might slow if you drop below 60 fps."
               Author="Kyo" 
@@ -867,7 +867,7 @@
             <Line Type="bytes" Address="0x00B6FBD4" Value="047DF603"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="60 FPS++" 
               Note="Changes some frame settings like the frame skip, vsync, frame tearing, etc.. \nWill help with better input delay/response times for 60 FPS." 
               Author="Kyo, yogesh1239" 
@@ -1169,7 +1169,7 @@
             <Line Type="bytes" Address="0x0183E964" Value="E91717C60390909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="90 FPS++" 
               Note="Changes some frame settings like the frame skip, vsync, frame tearing, etc.. \nWill help with better input delay/response times for 90 FPS. Remember to change Vblank to 90 or higher." 
               Author="Kyo, yogesh1239" 
@@ -1482,7 +1482,7 @@
             <Line Type="bytes" Address="0x0183E964" Value="E91717C60390909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 		      Name="120 FPS++" 
 		      Author="Kyo, yogesh1239" 
 		      Note="Changes some frame settings like the frame skip, vsync, frame tearing, etc.. \nWill help with better input delay/response times for 120 FPS. Remember to change Vblank to 120 or higher." 
@@ -1795,7 +1795,7 @@
             <Line Type="bytes" Address="0x0183E964" Value="E91717C60390909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Uncap FPS++"
               Note="Not really recommended as a lot of the timestep fixes would vary with fluctuating frame cap, Remember to increase vblank frequency."
               Author="Lance McDonald (manfightdragon), Kyo"
@@ -2168,7 +2168,7 @@
             <Line Type="bytes" Address="0x0183E964" Value="E91717C60390909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 		      Name="Restore Debug Menu (READ NOTES)" 
 		      Author="Whitehawkx, auser1337" 
 		      Note="This patch requires debug font files, which is available from nexusmods. It will crash without them. Access the menu by pressing left side of touchpad. " 
@@ -2188,7 +2188,7 @@
             <Line Type="bytes" Address="0x4D3B7C1" Value="6100640068006F0063003A002F0066006F006E0074002F0044006200670046006F006E0074003100340068002E00740070006600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Disable Camera Auto Rotation via Movement"
 			  Note="Disables the camera from auto rotating when you move your character around, manual camera movement and lock-on still work."
 			  Author="Imedved, Kyo"
@@ -2202,7 +2202,7 @@
             <Line Type="bytes" Address="0x0183c870" Value="909090909090909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Increased camera distance"
 			  Note="Playercam further away from player."
 			  Author="Kyo"
@@ -2221,7 +2221,7 @@
             <Line Type="bytes" Address="0x0183A88F" Value="0000C040"/>
 		</PatchList>
 	</Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="No Rally Decay" 
               Note="Rally doesn't decay" 
               Author="Kyo" 
@@ -2237,7 +2237,7 @@
 			<Line Type="bytes" Address="0x05952D75" Value="01"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Disable Rally (HP Regain)"
               Note="Disables Rally"
               Author="Kyo"
@@ -2248,7 +2248,7 @@
             <Line Type="bytes" Address="0x01966AEC" Value="41B601"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Player No Dead (Read note)" 
               Note="Can take damage but never drop below 1hp. (baby mode)" 
               Author="Kyo" 
@@ -2259,7 +2259,7 @@
 			<Line Type="bytes32" Address="0x0593E888" Value="0x00000001"/>
         </PatchList>
     </Metadata>
-	<Metadata Title="Bloodborne" 
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Player Stealth (Read note)" 
               Note="Enemies do not see or react to you (unless attacked)" 
               Author="Kyo" 
@@ -2270,7 +2270,7 @@
 			<Line Type="bytes" Address="0x0593E88E" Value="01"/>
         </PatchList>
     </Metadata>
-	<Metadata Title="Bloodborne" 
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Player Silent (Read note)" 
               Note="Enemies do not hear you but can still see you." 
               Author="Kyo" 
@@ -2281,7 +2281,7 @@
 			<Line Type="bytes" Address="0x0593E88F" Value="01"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Sensitive Analog Input (easier to run)"
               Note="Normally you walk and don't run until your analog stick moves 90% distance, this lowers that to around ~70% distance or something."
               Author="Kyo"
@@ -2292,7 +2292,7 @@
             <Line Type="bytes" Address="0X04D27714" Value="9A99993F"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Restore Change Appearance Feature"
               Note="Restore's the change appearance feature at the hunter's dream mirror."
               Author="MadMaxLiS, Mob"
@@ -2306,7 +2306,7 @@
             <Line Type="bytes" Address="0x022f5548" Value="e953ad1803909090909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Faster loading screens (READ NOTES)"
               Note="For this to work, enable the 30, 60 or 90 fps++ patch, and set your vblank to 500 or higher in game-specific settings."
               Author="Kyo"
@@ -2321,7 +2321,7 @@
             <Line Type="bytes" Address="0x015E4ABF" Value="E9ACF6FFFF"/>
         </PatchList>
     </Metadata>
-	<Metadata Title="Bloodborne"
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Auto-Refill From Storage on Any Area Refresh/Reload"
 		      Note="Automatically replenishes eligible consumables from your storage whenever any area is refreshed/reloaded. Lowers your storage inventory the same as the vanilla game, without requiring you to die or return to the Hunter's Dream every time. Uses Bloodborne's native auto-refill-from-storage system. NO free items--just a QoL patch."
 		      Author="johnnycoax"
@@ -2332,7 +2332,7 @@
             <Line Type="bytes" Address="0x01d398b1" Value="eb26909090909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 		      Name="Smaller Hunter" 
 		      Author="Kyo" 
 		      Note="smol" 
@@ -2405,7 +2405,7 @@
             <Line Type="bytes" Address="0x04D3BCF0" Value="3333333F3333333F3333333F3333333F"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne" 
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 		      Name="Smallest Hunter" 
 		      Author="Kyo" 
 		      Note="teeny" 
@@ -2480,7 +2480,7 @@
             <Line Type="bytes" Address="0x04D3BCF0" Value="EC51383FEC51383FEC51383FEC51383F"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Unlock Game Region"
               Note="Unlocks the game region to support additional language options, Doesn't switch the X and Circle buttons"
               Author="Lance McDonald (manfightdragon), Kyo"
@@ -2493,7 +2493,7 @@
 			<Line Type="bytes" Address="0x01C2C890" Value="31C0C3909090909090909090909090"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Zero-Gravity Physics"
               Note="me and my homies HATE havok"
               Author="Kyo"
@@ -2508,7 +2508,7 @@
             <Line Type="bytes" Address="0x04D3BCF0" Value="00000000CDCC1CC10000000000000000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Anti-Gravity Physics"
               Note="me and my homies HATE havok"
               Author="Kyo"
@@ -2524,7 +2524,7 @@
             <Line Type="bytes" Address="0x04D3BCD0" Value="C5F82880B0050000C5F8590510000000E9ABF610FD"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Enable TAA"
 			  Note="Enables Yebis TAA, experimental and not really recommended." 
               Author="Kyo"
@@ -2597,7 +2597,7 @@
             <Line Type="bytes" Address="0x01037FB5" Value="C5FA1025D3FBF7FF"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Bookmark and Capture outputs"
               Author="Foxy Hooligans"
               PatchVer="1.0"
@@ -2607,7 +2607,7 @@
             <Line Type="bytes" Address="0x04dba9be" Value="2f0064006100740061002f0062006c006f006f00640062006f0072006e0065002f000000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Enemy Control"
               Note="R3 to control targeted enemy / L3 to go back"
               Author="stagvant"
@@ -2747,7 +2747,7 @@
             <Line Type="bytes" Address="0x1972abe" Value="6401"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="1280x800 Light Grid For SteamDeck (READ NOTES)"
 			  Note="Increases performance by lowering Light grid draw calls. USE VERSION THAT MATCHES YOUR WINDOW/FULLSCREEN  RESOLUTION, NOT RENDER RESOLUTION PATCH."
               Author="Kyo"
@@ -2759,7 +2759,7 @@
 	        <Line Type="bytes" Address="0x02695CC0" Value="C783AC78000020030000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="1080p Light Grid (READ NOTES)"
 			  Note="Increases performance by lowering Light grid draw calls. USE VERSION THAT MATCHES YOUR WINDOW/FULLSCREEN  RESOLUTION, NOT RENDER RESOLUTION PATCH. (Note: 1080p light grid is also in the performance patch)"
               Author="Kyo"
@@ -2771,7 +2771,7 @@
 		    <Line Type="bytes" Address="0x02695CC0" Value="C783AC78000038040000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="1440p Light Grid (READ NOTES)"
 			  Note="Increases performance by lowering Light grid draw calls. USE VERSION THAT MATCHES YOUR WINDOW/FULLSCREEN  RESOLUTION, NOT RENDER RESOLUTION PATCH."
               Author="Kyo"
@@ -2783,7 +2783,7 @@
 		    <Line Type="bytes" Address="0x02695CC0" Value="C783AC780000A0050000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="4k Light Grid (READ NOTES)"
 			  Note="Increases performance by lowering Light grid draw calls. USE VERSION THAT MATCHES YOUR WINDOW/FULLSCREEN RESOLUTION, NOT RENDER RESOLUTION PATCH."
               Author="Kyo"
@@ -2795,7 +2795,7 @@
 		    <Line Type="bytes" Address="0x02695CC0" Value="C783AC78000070080000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Optimal 1080p"
               Note="360p global with main renders at 1080p"
               Author="Kyo"
@@ -2897,7 +2897,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000080070000C78424A400000038040000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 640x360 (16:9)"
               Note="640x360 resolution with proper lock-on/enemy/ally hp bar coordinates."
               Author="Kyo"
@@ -2989,7 +2989,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000080020000C78424A400000068010000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 960x540 (16:9)"
               Note="960x540 resolution with proper lock-on/enemy/ally hp bar coordinates."
               Author="Kyo"
@@ -3081,7 +3081,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000C0030000C78424A40000001C020000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 1280x720 (16:9)"
               Note="1280x720 resolution with proper lock-on/enemy/ally hp bar coordinates."
               Author="Kyo"
@@ -3173,7 +3173,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000000050000C78424A4000000D0020000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 1440x810 (16:9)"
               Note="1440x810 resolution with proper lock-on/enemy/ally hp bar coordinates."
               Author="Kyo"
@@ -3265,7 +3265,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000A0050000C78424A40000002A030000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 1600x900 (16:9)"
               Note="1600x900 resolution with proper lock-on/enemy/ally hp bar coordinates."
               Author="Kyo"
@@ -3357,7 +3357,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000040060000C78424A400000084030000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 2560x1440 (16:9)"
               Note="2560x1440 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -3451,7 +3451,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000000A0000C78424A4000000A0050000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 3840x2160 (16:9)"
               Note="3840x2160 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -3547,7 +3547,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000000F0000C78424A400000070080000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 1280x800 (16:10)"
               Note="1280x800 resolution with proper lock-on/enemy/ally hp bar coordinates."
               Author="Kyo"
@@ -3655,7 +3655,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000000050000C78424A400000020030000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 1920x1200 (16:10)"
               Note="1920x1200 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -3772,7 +3772,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000080070000C78424A4000000B0040000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 2560x1600 (16:10)"
               Note="2560x1600 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -3881,7 +3881,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000000A0000C78424A400000040060000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 2560x1080 (21:9)"
               Note="2560x1080 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -3987,7 +3987,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000000A0000C78424A400000038040000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 3440x1440 (21:9)"
               Note="3440x1440 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -4094,7 +4094,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000700D0000C78424A4000000A0050000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 5120x2160 (21:9)"
               Note="5120x2160 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -4200,7 +4200,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000000140000C78424A400000070080000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 3840x1080 (32:9)"
               Note="3840x1080 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -4307,7 +4307,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000000F0000C78424A400000038040000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 5120x1440 (32:9)"
               Note="5120x1440 resolution with proper lock-on/enemy/ally hp bar coordinates. Remember to increase dmem +4000mb or so in game-specific settings (this implies you also have at least 12gb of vram)."
               Author="Kyo"
@@ -4414,7 +4414,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000000140000C78424A4000000A0050000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 1280x960 (4:3)"
               Note="1280x960 resolution with proper lock-on/enemy/ally hp bar coordinates."
               Author="Kyo"
@@ -4522,7 +4522,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A000000000050000C78424A4000000C0030000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
               Name="Resolution Patch 1440x1080 (4:3)"
               Note="1440x1080 resolution with proper lock-on/enemy/ally hp bar coordinates."
               Author="Kyo"
@@ -4630,7 +4630,7 @@
             <Line Type="bytes" Address="0x02594AA6" Value="418D4DFF83F97F7718C78424A0000000A0050000C78424A400000038040000EB1E418B8CC480010000898C24A0000000418B8CC484010000898C24A40000004D8DB4C484010000C68424B000000057C78424A80000003C000000C68424AC00000001498B8CC48801000048898C24BC000000C68424C400000003C68424C80000000390"/>
         </PatchList>
 	</Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Decoupled 1080p UI (320x180 render res)"
 			  Note="Upscaled render res for 1080p"
 		 	  Author="Kyo"
@@ -4666,7 +4666,7 @@
             <Line Type="bytes" Address="0x01258F2C" Value="E8BF2BAE030F1F440000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Decoupled 1080p UI (640x360 render res)"
 			  Note="Upscaled render res for 1080p"
 	   		  Author="Kyo"
@@ -4702,7 +4702,7 @@
             <Line Type="bytes" Address="0x01258F2C" Value="E8BF2BAE030F1F440000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Decoupled 1080p UI (960x540 render res)"
 		 	  Note="Upscaled render res for 1080p"
 		 	  Author="Kyo"
@@ -4738,7 +4738,7 @@
             <Line Type="bytes" Address="0x01258F2C" Value="E8BF2BAE030F1F440000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Decoupled 1080p UI (1280x720 render res)"
 			  Note="Upscaled render res for 1080p"
 			  Author="Kyo"
@@ -4774,7 +4774,7 @@
             <Line Type="bytes" Address="0x01258F2C" Value="E8BF2BAE030F1F440000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Decoupled 1080p UI (1600x900 render res)"
 			  Note="Upscaled render res for 1080p"
 		 	  Author="Kyo"
@@ -4810,7 +4810,7 @@
             <Line Type="bytes" Address="0x01258F2C" Value="E8BF2BAE030F1F440000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Decoupled 1080p UI (2560x1440 render res)"
 			  Note="Downscaled render res for 1080p, set dmem 4000+"
 		 	  Author="Kyo"
@@ -4848,7 +4848,7 @@
             <Line Type="bytes" Address="0x01258F2C" Value="E8BF2BAE030F1F440000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Decoupled 1080p UI (2880x1620 render res)"
 			  Note="Downscaled render res for 1080p, set dmem 4000+"
 		 	  Author="Kyo"
@@ -4886,7 +4886,7 @@
             <Line Type="bytes" Address="0x01258F2C" Value="E8BF2BAE030F1F440000"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Bloodborne"
+    <Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="Decoupled 1080p UI (3840x2160 render res)"
 			  Note="Downscaled render res for 1080p, set dmem 4000+"
 		 	  Author="Kyo"
@@ -4924,7 +4924,7 @@
             <Line Type="bytes" Address="0x01258F2C" Value="E8BF2BAE030F1F440000"/>
         </PatchList>
     </Metadata>
-	<Metadata Title="Bloodborne"
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="HD Motion Blur 1080p (1920x1080)"
 			  Note="Motion blur velomap is default set to /2 of your render resolution, this forces it to 1080p. set dmem 4000+ as this uses more vram."
 		 	  Author="Kyo"
@@ -4943,7 +4943,7 @@
             <Line Type="bytes" Address="0x026C265D" Value="01"/>
         </PatchList>
     </Metadata>
-	<Metadata Title="Bloodborne"
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="HD Motion Blur 1440p (2560x1440)"
 			  Note="Motion blur velomap is default set to /2 of your render resolution, this forces it to 1440p. set dmem 4000+ as this uses more vram."
 		 	  Author="Kyo"
@@ -4962,7 +4962,7 @@
             <Line Type="bytes" Address="0x026C265D" Value="01"/>
         </PatchList>
     </Metadata>
-	<Metadata Title="Bloodborne"
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="HD Motion Blur 4K (3840x2160)"
 			  Note="Motion blur velomap is default set to /2 of your render resolution, this forces it to 4k. set dmem 4000+ as this uses a lot more vram."
 		 	  Author="Kyo"
@@ -4981,7 +4981,7 @@
             <Line Type="bytes" Address="0x026C265D" Value="01"/>
         </PatchList>
     </Metadata>
-	<Metadata Title="Bloodborne"
+	<Metadata ImageBase="0x00400000" Title="Bloodborne"
 			  Name="lower specific renders (Perf Increase)"
 			  Note="lowers res of certain renders (Velomap, Glow, ScaledDepth). Gives a perf increase, no visual differences/conflicts unless you enable SSR patch."
 		 	  Author="Kyo"

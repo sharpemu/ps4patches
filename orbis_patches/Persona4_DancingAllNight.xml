@@ -4,7 +4,7 @@
         <ID>CUSA12112</ID>
         <ID>CUSA12811</ID>
     </TitleID>
-    <Metadata Title="Persona 4: Dancing All Night"
+    <Metadata ImageBase="0x00400000" Title="Persona 4: Dancing All Night"
             Name="Force 4k Render Resolution"
             Note="Forces 4k Render Resolution"
             Author="Danu"
@@ -22,7 +22,7 @@
             <Line Type="bytes" Address="0x007d580c" Value="0000003f"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Persona 4: Dancing All Night"
+    <Metadata ImageBase="0x00400000" Title="Persona 4: Dancing All Night"
             Name="Force 1440p (2k) Render Resolution"
             Note="Forces 1440p (2k) Render Resolution"
             Author="Danu"
@@ -40,7 +40,7 @@
             <Line Type="bytes" Address="0x007d580c" Value="0000003f"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Persona 4: Dancing All Night"
+    <Metadata ImageBase="0x00400000" Title="Persona 4: Dancing All Night"
             Name="Force Steam Deck Render Resolution"
             Note="Forces 800p 16:10 (Essentially Steam Deck's) Render Resolution"
             Author="Danu"
@@ -58,7 +58,7 @@
             <Line Type="bytes" Address="0x007d580c" Value="0000003f"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Persona 4: Dancing All Night"
+    <Metadata ImageBase="0x00400000" Title="Persona 4: Dancing All Night"
             Name="Force 720p Render Resolution"
             Note="Forces 720p Render Resolution"
             Author="Danu"
@@ -76,7 +76,7 @@
             <Line Type="bytes" Address="0x007d580c" Value="0000003f"/>
         </PatchList>
     </Metadata>
-    <Metadata Title="Persona 4: Dancing All Night"
+    <Metadata ImageBase="0x00400000" Title="Persona 4: Dancing All Night"
             Name="Force 540p Render Resolution"
             Note="Forces 540p (Essentially PS Vita's) Render Resolution"
             Author="Danu"
