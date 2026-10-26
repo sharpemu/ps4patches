@@ -153,18 +153,6 @@
       ]
     },
     {
-      "file": "GrandTheftAutoV.xml",
-      "titleIds": [
-        "CUSA00411",
-        "CUSA00419",
-        "CUSA00880"
-      ],
-      "versions": [
-        "01.00",
-        "01.57"
-      ]
-    },
-    {
       "file": "GranTurismo7.xml",
       "titleIds": [
         "CUSA24765",
@@ -184,6 +172,18 @@
       ],
       "versions": [
         "01.69"
+      ]
+    },
+    {
+      "file": "GrandTheftAutoV.xml",
+      "titleIds": [
+        "CUSA00411",
+        "CUSA00419",
+        "CUSA00880"
+      ],
+      "versions": [
+        "01.00",
+        "01.57"
       ]
     },
     {
@@ -342,6 +342,15 @@
       ]
     },
     {
+      "file": "NHL19.xml",
+      "titleIds": [
+        "CUSA11116"
+      ],
+      "versions": [
+        "01.60"
+      ]
+    },
+    {
       "file": "NatsukiChronicles.xml",
       "titleIds": [
         "CUSA26073"
@@ -351,12 +360,12 @@
       ]
     },
     {
-      "file": "NHL19.xml",
+      "file": "PT.xml",
       "titleIds": [
-        "CUSA11116"
+        "CUSA01127"
       ],
       "versions": [
-        "01.60"
+        "01.00"
       ]
     },
     {
@@ -395,15 +404,6 @@
       ],
       "versions": [
         "01.02"
-      ]
-    },
-    {
-      "file": "PT.xml",
-      "titleIds": [
-        "CUSA01127"
-      ],
-      "versions": [
-        "01.00"
       ]
     },
     {
