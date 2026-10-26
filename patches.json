@@ -1,0 +1,580 @@
+{
+  "formatVersion": 1,
+  "files": [
+    {
+      "file": "BlazeRush.xml",
+      "titleIds": [
+        "CUSA03187"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "Bloodborne.xml",
+      "titleIds": [
+        "CUSA00207",
+        "CUSA00208",
+        "CUSA00299",
+        "CUSA00900",
+        "CUSA01363",
+        "CUSA03014",
+        "CUSA03023",
+        "CUSA03173"
+      ],
+      "versions": [
+        "01.09"
+      ]
+    },
+    {
+      "file": "BloodborneNetworkTest.xml",
+      "titleIds": [
+        "CUSA01318",
+        "CUSA01322",
+        "CUSA01333",
+        "CUSA01335"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "BlueRider.xml",
+      "titleIds": [
+        "CUSA05653"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "BurnoutParadiseRemastered.xml",
+      "titleIds": [
+        "CUSA10851",
+        "CUSA10866"
+      ],
+      "versions": [
+        "01.03"
+      ]
+    },
+    {
+      "file": "Catherine_FullBody.xml",
+      "titleIds": [
+        "CUSA14836",
+        "CUSA15036"
+      ],
+      "versions": [
+        "01.00",
+        "01.01"
+      ]
+    },
+    {
+      "file": "CrashBandicoot4.xml",
+      "titleIds": [
+        "CUSA19035",
+        "CUSA23470",
+        "CUSA23511",
+        "CUSA23512"
+      ],
+      "versions": [
+        "01.00",
+        "01.05"
+      ]
+    },
+    {
+      "file": "CrashTeamRacingNitroFueled.xml",
+      "titleIds": [
+        "CUSA13795"
+      ],
+      "versions": [
+        "01.21"
+      ]
+    },
+    {
+      "file": "DarkSoulsIII-Orbis.xml",
+      "titleIds": [
+        "CUSA03365",
+        "CUSA03388",
+        "CUSA07339"
+      ],
+      "versions": [
+        "01.15"
+      ]
+    },
+    {
+      "file": "DeadNation.xml",
+      "titleIds": [
+        "CUSA00176",
+        "CUSA00236"
+      ],
+      "versions": [
+        "01.03"
+      ]
+    },
+    {
+      "file": "DetroitBecomeHuman.xml",
+      "titleIds": [
+        "CUSA08308"
+      ],
+      "versions": [
+        "01.08"
+      ]
+    },
+    {
+      "file": "Driveclub.xml",
+      "titleIds": [
+        "CUSA00003",
+        "CUSA00064",
+        "CUSA00066",
+        "CUSA00093",
+        "CUSA00879"
+      ],
+      "versions": [
+        "01.28"
+      ]
+    },
+    {
+      "file": "GeometryWarsDimensions.xml",
+      "titleIds": [
+        "CUSA00755"
+      ],
+      "versions": [
+        "01.03"
+      ]
+    },
+    {
+      "file": "God_of_War_III_Remastered.xml",
+      "titleIds": [
+        "CUSA01623",
+        "CUSA01715"
+      ],
+      "versions": [
+        "01.02"
+      ]
+    },
+    {
+      "file": "GrandTheftAutoV.xml",
+      "titleIds": [
+        "CUSA00411",
+        "CUSA00419",
+        "CUSA00880"
+      ],
+      "versions": [
+        "01.00",
+        "01.57"
+      ]
+    },
+    {
+      "file": "GranTurismo7.xml",
+      "titleIds": [
+        "CUSA24765",
+        "CUSA24767",
+        "CUSA24769",
+        "CUSA24771"
+      ],
+      "versions": [
+        "01.70"
+      ]
+    },
+    {
+      "file": "GranTurismoSport.xml",
+      "titleIds": [
+        "CUSA02168",
+        "CUSA03220"
+      ],
+      "versions": [
+        "01.69"
+      ]
+    },
+    {
+      "file": "GravityRush2.xml",
+      "titleIds": [
+        "CUSA00547",
+        "CUSA03694",
+        "CUSA04934",
+        "CUSA04935",
+        "CUSA04943"
+      ],
+      "versions": [
+        "01.11"
+      ]
+    },
+    {
+      "file": "HatsuneMiku_ProjectDIVAFutureTone.xml",
+      "titleIds": [
+        "CUSA03828",
+        "CUSA05030",
+        "CUSA06093",
+        "CUSA06211",
+        "CUSA08026",
+        "CUSA08053"
+      ],
+      "versions": [
+        "mask"
+      ]
+    },
+    {
+      "file": "HorizonZeroDawn.xml",
+      "titleIds": [
+        "CUSA01021",
+        "CUSA01967",
+        "CUSA05661",
+        "CUSA05682",
+        "CUSA07319",
+        "CUSA07320",
+        "CUSA07326",
+        "CUSA07350",
+        "CUSA07762",
+        "CUSA07798",
+        "CUSA10211",
+        "CUSA10212",
+        "CUSA10213",
+        "CUSA10218",
+        "CUSA10234",
+        "CUSA10237"
+      ],
+      "versions": [
+        "01.00",
+        "01.54"
+      ]
+    },
+    {
+      "file": "InfamousFirstLight.xml",
+      "titleIds": [
+        "CUSA00575",
+        "CUSA00897",
+        "CUSA00996",
+        "CUSA01064"
+      ],
+      "versions": [
+        "01.04"
+      ]
+    },
+    {
+      "file": "InfamousSecondSon.xml",
+      "titleIds": [
+        "CUSA00004",
+        "CUSA00223",
+        "CUSA00305",
+        "CUSA00309"
+      ],
+      "versions": [
+        "01.07"
+      ]
+    },
+    {
+      "file": "Journey.xml",
+      "titleIds": [
+        "CUSA00694"
+      ],
+      "versions": [
+        "01.01"
+      ]
+    },
+    {
+      "file": "Knack.xml",
+      "titleIds": [
+        "CUSA00006"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "LEGODimensions.xml",
+      "titleIds": [
+        "CUSA00935",
+        "CUSA01176"
+      ],
+      "versions": [
+        "01.00",
+        "01.23",
+        "01.24"
+      ]
+    },
+    {
+      "file": "LittleBigPlanet3.xml",
+      "titleIds": [
+        "CUSA00063",
+        "CUSA00473",
+        "CUSA00693",
+        "CUSA00762",
+        "CUSA00810"
+      ],
+      "versions": [
+        "01.28"
+      ]
+    },
+    {
+      "file": "MetaphorRefantazio.xml",
+      "titleIds": [
+        "CUSA47038"
+      ],
+      "versions": [
+        "01.13"
+      ]
+    },
+    {
+      "file": "MinecraftDungeons.xml",
+      "titleIds": [
+        "CUSA18797",
+        "CUSA18798",
+        "CUSA18799",
+        "CUSA20141",
+        "CUSA20142"
+      ],
+      "versions": [
+        "01.00",
+        "01.29"
+      ]
+    },
+    {
+      "file": "MyFirstGranTurismo.xml",
+      "titleIds": [
+        "CUSA49695",
+        "CUSA49696",
+        "CUSA49697",
+        "CUSA49698"
+      ],
+      "versions": [
+        "01.00",
+        "01.01"
+      ]
+    },
+    {
+      "file": "NatsukiChronicles.xml",
+      "titleIds": [
+        "CUSA26073"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "NHL19.xml",
+      "titleIds": [
+        "CUSA11116"
+      ],
+      "versions": [
+        "01.60"
+      ]
+    },
+    {
+      "file": "Persona3_DancingInMoonlight.xml",
+      "titleIds": [
+        "CUSA12636"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "Persona4_DancingAllNight.xml",
+      "titleIds": [
+        "CUSA12112",
+        "CUSA12811"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "Persona5_DancingInStarlight.xml",
+      "titleIds": [
+        "CUSA12380"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "Persona5_Royal.xml",
+      "titleIds": [
+        "CUSA17416",
+        "CUSA17419"
+      ],
+      "versions": [
+        "01.02"
+      ]
+    },
+    {
+      "file": "PT.xml",
+      "titleIds": [
+        "CUSA01127"
+      ],
+      "versions": [
+        "01.00"
+      ]
+    },
+    {
+      "file": "Ratchet_and_Clank.xml",
+      "titleIds": [
+        "CUSA01047",
+        "CUSA01073",
+        "CUSA01686",
+        "CUSA01928",
+        "CUSA02020"
+      ],
+      "versions": [
+        "01.09"
+      ]
+    },
+    {
+      "file": "SakuraWars.xml",
+      "titleIds": [
+        "CUSA13045",
+        "CUSA16404",
+        "CUSA16429"
+      ],
+      "versions": [
+        "01.01"
+      ]
+    },
+    {
+      "file": "SonicRacingCrossworlds.xml",
+      "titleIds": [
+        "CUSA35016"
+      ],
+      "versions": [
+        "01.00",
+        "01.41"
+      ]
+    },
+    {
+      "file": "SotC.xml",
+      "titleIds": [
+        "CUSA08034",
+        "CUSA08804",
+        "CUSA08809"
+      ],
+      "versions": [
+        "01.01"
+      ]
+    },
+    {
+      "file": "TheLastGuardian.xml",
+      "titleIds": [
+        "CUSA03627",
+        "CUSA03745",
+        "CUSA04936",
+        "CUSA05152"
+      ],
+      "versions": [
+        "01.03"
+      ]
+    },
+    {
+      "file": "TheLastOfUsRemastered.xml",
+      "titleIds": [
+        "CUSA00552",
+        "CUSA00556",
+        "CUSA00557",
+        "CUSA00559"
+      ],
+      "versions": [
+        "01.00",
+        "01.11"
+      ]
+    },
+    {
+      "file": "TheOrder1886.xml",
+      "titleIds": [
+        "CUSA00035",
+        "CUSA00070",
+        "CUSA00076",
+        "CUSA00100",
+        "CUSA00670",
+        "CUSA00785"
+      ],
+      "versions": [
+        "01.02"
+      ]
+    },
+    {
+      "file": "TheQuarry.xml",
+      "titleIds": [
+        "CUSA31345",
+        "CUSA31820"
+      ],
+      "versions": [
+        "01.00",
+        "01.07"
+      ]
+    },
+    {
+      "file": "TheWitcher3.xml",
+      "titleIds": [
+        "CUSA05571",
+        "CUSA05572",
+        "CUSA05573",
+        "CUSA05574",
+        "CUSA05644",
+        "CUSA05725"
+      ],
+      "versions": [
+        "01.00",
+        "04.06"
+      ]
+    },
+    {
+      "file": "UnchartedTheLostLegacy.xml",
+      "titleIds": [
+        "CUSA07737",
+        "CUSA07875",
+        "CUSA08347",
+        "CUSA09564",
+        "CUSA09597"
+      ],
+      "versions": [
+        "01.00",
+        "01.09"
+      ]
+    },
+    {
+      "file": "UnchartedTheNathanDrakeCollection.xml",
+      "titleIds": [
+        "CUSA01399",
+        "CUSA02320",
+        "CUSA02343",
+        "CUSA02344",
+        "CUSA02826"
+      ],
+      "versions": [
+        "01.00",
+        "01.02"
+      ]
+    },
+    {
+      "file": "UntilDawn.xml",
+      "titleIds": [
+        "CUSA00194",
+        "CUSA00359",
+        "CUSA00902",
+        "CUSA01913",
+        "CUSA02636"
+      ],
+      "versions": [
+        "01.00",
+        "01.03"
+      ]
+    },
+    {
+      "file": "Windjammers2.xml",
+      "titleIds": [
+        "CUSA15640"
+      ],
+      "versions": [
+        "01.03"
+      ]
+    },
+    {
+      "file": "YokusIslandExpress.xml",
+      "titleIds": [
+        "CUSA10650"
+      ],
+      "versions": [
+        "01.02"
+      ]
+    }
+  ]
+}
