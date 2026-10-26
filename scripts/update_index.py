@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 def build_index(root: Path) -> dict:
     files = []
     names = set()
-    for path in sorted((root / "orbis_patches").iterdir()):
+    for path in sorted((root / "orbis_patches").iterdir(), key=lambda path: path.name):
         if not path.is_file() or path.suffix.lower() != ".xml":
             continue
         if not re.fullmatch(r"[A-Za-z0-9._ -]+\.xml", path.name, re.IGNORECASE):
